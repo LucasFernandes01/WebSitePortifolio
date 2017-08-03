@@ -14,7 +14,7 @@
         <!-- My Css -->
         <link rel="stylesheet" href="css/style.css">
         
-       <!-- AJAX --> 
+       <!-- AJAX / VALIDATION --> 
        <script src="ajax/checkCad.js"></script>
     </head>
     <body>
@@ -33,7 +33,7 @@
                          <!-- NOME INPUT -->
                         <div class="form-group">
                             <input type="text"  class="form-control input-lg" placeholder="Nome" 
-                                name="InputNome" id="InputNome" onkeyup="checkNome(this.value);" maxlength="200" required>
+                                    name="InputNome" id="InputNome" onkeyup="checkNome(this.value);" maxlength="200" required>
                             <div id="dispNome"></div>
                         </div>
                          
@@ -71,7 +71,6 @@
                 </div>
             </div>
         </div>  
-        <script src="js/validaForm.js"></script>
     </body>
 </html>
     
